@@ -7,7 +7,7 @@ import org.zhd.strusts.util.HTTPUtil;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class Login extends ActionSupport{
+public class LoginAction extends ActionSupport{
 	
 	private String username;
 	private String password;

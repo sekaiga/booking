@@ -5,7 +5,7 @@
 <struts>
 	<package name="login" namespace="/page/login" extends="struts-default">
 
-		<action name="login" class="org.zhd.strusts.login.action.Login" method="login">
+		<action name="login" class="org.zhd.strusts.login.action.LoginAction" method="login">
 			<result></result>
 		</action>
 

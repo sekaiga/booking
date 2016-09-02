@@ -36,6 +36,19 @@
 		<param-value>/WEB-INF/classes/applicationContext.xml</param-value>
 	</context-param>
 
+	<servlet>
+		<servlet-name>VerifyCode</servlet-name>
+		<servlet-class>org.zhd.strusts.servlet.VerifyCodeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerifyCode</servlet-name>
+		<url-pattern>/VerifyCode</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>120</session-timeout>
+	</session-config>
+
 
 
 </web-app>
